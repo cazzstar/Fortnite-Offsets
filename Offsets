@@ -1,44 +1,49 @@
-Class: UWorld, Member: Levels, Offset: 0x198
-Class: UWorld, Member: PersistentLevel, Offset: 0x38
-Class: UWorld, Member: GameState, Offset: 0x180
-Class: UWorld, Member: OwningGameInstance, Offset: 0x1F8
-Class: ULevel, Member: OwningWorld, Offset: 0x88
-Class: AGameStateBase, Member: PlayerArray, Offset: 0x2C0
-Class: AGameStateBase, Member: ServerWorldTimeSecondsDelta, Offset: 0x2E0
-Class: UGameInstance, Member: LocalPlayers, Offset: 0x38
-Class: ACharacter, Member: Mesh, Offset: 0x328
-Class: UPlayer, Member: PlayerController, Offset: 0x30
-Class: APlayerController, Member: AcknowledgedPawn, Offset: 0x350
-Class: AActor, Member: RootComponent, Offset: 0x1B0
-Class: APlayerController, Member: NetConnection, Offset: 0x520
-Class: UFortItemDefinition, Member: Rarity, Offset: 0xA2
-Class: APawn, Member: PlayerState, Offset: 0x2C8
-Class: APlayerState, Member: PawnPrivate, Offset: 0x320
-Class: APlayerState, Member: bIsABot , Offset: 0x0
-Class: AFortPickup, Member: DefaultFlyTime, Offset: 0x624
-Class: AFortPickup, Member: PrimaryPickupItemEntry, Offset: 0x370
-Class: FFortItemEntry, Member: ItemDefinition, Offset: 0x18
-Class: UItemDefinitionBase, Member: ItemName, Offset: 0x40
-Class: USceneComponent, Member: RelativeLocation, Offset: 0x138
-Class: USceneComponent, Member: RelativeRotation, Offset: 0x150
-Class: USceneComponent, Member: ComponentVelocity, Offset: 0x180
-Class: ABuildingContainer, Member: SpawnSourceOverride, Offset: 0xCA0
-Class: ABuildingContainer, Member: bAlreadySearched, Offset: 0xE0A
-Class: ABuildingContainer, Member: HighestRarity, Offset: 0xE08
-Class: AFortPawn, Member: CurrentWeapon, Offset: 0xA80
-Class: AFortPawn, Member: bIsDBNO, Offset: 0x962
-Class: AFortPawn, Member: bIsDying, Offset: 0x718
-Class: AFortWeapon, Member: WeaponData, Offset: 0x568
-Class: AFortWeapon, Member: AmmoCount, Offset: 0x1084
-Class: ULevel, Member: WorldSettings, Offset: 0x2B0
-Class: AWorldSettings, Member: WorldGravityZ, Offset: 0x328
-Class: AFortPlayerController, Member: TargetedFortPawn, Offset: 0x1980
-Class: AFortPlayerState, Member: HabaneroComponent, Offset: 0xA38
-Class: UFortPlayerStateComponent_Habanero, Member: RankedProgress, Offset: 0xD0
-Class: AFortPlayerState, Member: Platform, Offset: 0x430
-Class: AFortPlayerStateAthena, Member: TeamIndex, Offset: 0x1259
-Class: AFortPlayerPawnAthena, Member: ReviveFromDBNOTime, Offset: 0x4E28
-Class: UWorld, Member: DefaultPhysicsVolume, Offset: 0x118
-Class: UPrimitiveComponent, Member: BoundsScale, Offset: 0x2F4
-Class: OFFSET_GWORLD, Member: , Offset: 0x164015B8
-Class: OFFSET_GNAMES, Member: , Offset: 0x165F5000
+GWORLD = 0x16FB0098
+Levels = 0x1A0
+PersistentLevel = 0x40
+GameState = 0x188
+OwningGameInstance = 0x200
+DefaultPhysicsVolume = 0x120
+OwningWorld = 0xB8
+WorldSettings = 0x2B0
+PlayerArray = 0x2C0
+ServerWorldTimeSecondsDelta = 0x2E0
+LocalPlayers = 0x38
+Mesh = 0x328
+PlayerController = 0x30
+AcknowledgedPawn = 0x350
+NetConnection = 0x520
+RootComponent = 0x1B0
+Rarity = 0xA2
+PlayerState = 0x2C8
+PawnPrivate = 0x320
+bIsABot = 0x2b2 
+DefaultFlyTime = 0x5DC
+PrimaryPickupItemEntry = 0x370
+ItemDefinition = 0x10
+ItemName = 0x40
+RelativeLocation = 0x138
+RelativeRotation = 0x150
+ComponentVelocity = 0x180
+SpawnSourceOverride = 0xCA0
+bAlreadySearched = 0xE0A
+HighestRarity = 0xE08
+CurrentWeapon = 0xA80
+bIsDBNO = 0x962
+bIsDying = 0x718
+WeaponData = 0x5E8
+AmmoCount = 0xFA4
+WorldGravityZ = 0x328
+TargetedFortPawn = 0x1980
+HabaneroComponent = 0xA38
+Platform = 0x430
+RankedProgress = 0xD0
+TeamIndex = 0x1259
+ReviveFromDBNOTime = 0x4E38
+BoundsScale = 0x2F4
+ProjectileSpeed = 0x1DB8
+GravityScale = 0x1DD4
+AActors = 0x210
+ComponentToWorld = 0x1E0
+BoneArray = 0x5A8
+BoneCache = 0x5B8
